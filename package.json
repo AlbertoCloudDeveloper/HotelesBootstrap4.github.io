@@ -1,0 +1,62 @@
+{
+  "name": "guiahoteles",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de Nodejs",
+  "main": "./index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "start": "concurrently \"npm run watch:scss\" \"npm run dev \"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss ",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin images/* --out-dir dist/images",
+    "usemin": "usemin index.html -d dist --thmlmin -o dist/index.html && usemin nosotros.html -d dist --thmlmin -o dist/nosotros.html && usemin precios.html -d dist --thmlmin -o dist/precios.html && usemin terminos.html -d dist --thmlmin -o dist/terminoshtml",
+    "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://AlbertoCloudDeveloper@bitbucket.org/albertoclouddeveloper/guiahoteles.git"
+  },
+  "author": "Alberto Diaz Web Aplication Developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/albertoclouddeveloper/guiahoteles/issues"
+  },
+  "homepage": "https://bitbucket.org/albertoclouddeveloper/guiahoteles#readme",
+  "dependencies": {
+    "@icon/open-iconic": "^1.1.1-alpha.3",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "concurrently": "^7.6.0",
+    "imagemin": "^8.0.1",
+    "jquery": "^3.6.3",
+    "onchange": "^7.1.0",
+    "popper.js": "^1.16.1",
+    "rimraf": "^4.1.2",
+    "save-dev": "^0.0.1-security",
+    "usemin": "^0.6.0"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "del": "^7.0.0",
+    "grunt": "^1.5.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-filerev": "^2.3.1",
+    "grunt-usemin": "^3.1.1",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "jit-grunt": "^0.10.0",
+    "lite-server": "^2.6.1",
+    "node-sass": "^8.0.0",
+    "time-grunt": "^2.0.0"
+  }
+}

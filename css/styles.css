@@ -1,0 +1,28 @@
+.jumbotron {
+  background-color: #fff019;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 15px; }
+
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: #fff019;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.card-Instrumento {
+  flex: 1 200px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.btn-Comprar {
+  width: 100%;
+  position: adsolute;
+  left: 0;
+  bottom: 0; }
+
+.jumbotronPruebas {
+  background-color: #002fff;
+  color: black;
+  padding: 50px;
+  margin-top: 4%; }

@@ -1,0 +1,41 @@
+$jumbotronColor: #fff019;
+$footerColor: #fff019;
+$yellow: #fff019;
+$rojo: #f02536;
+$verde: #19ff24b2;
+
+@mixin margenes($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotron {
+    background-color: $jumbotronColor;
+    color: black;
+    @include margenes(50px, 15px);
+}
+
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: $footerColor;
+    @include margenes(10px, 0px);
+}
+
+.card-Instrumento {
+    flex: 1 200px;
+    @include margenes(10px, 0px);
+}
+
+.btn-Comprar {
+    width: 100%;
+    position: adsolute;
+    left: 0;
+    bottom: 0;
+}
+
+.jumbotronPruebas {
+    background-color: rgb(0, 47, 255);
+    color: black;
+    padding: 50px;
+    margin-top: 4%;
+}

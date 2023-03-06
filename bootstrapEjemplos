@@ -1,0 +1,307 @@
+<!-- UNO  -->
+<h1>Ejemplo Uno</h1>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        Primera columna
+      </div>
+      <div class="col-sm">
+        Segunda columna
+      </div>
+      <div class="col-sm">
+        Tercera columna
+      </div>
+    </div>
+  </div>
+  <br>
+
+<!-- DOS -->
+  <h1>Ejemplo Dos</h1>
+  <div class="row">
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-8">col-8</div>
+    <div class="col-4">col-4</div>
+  </div>
+
+<!-- TRES -->
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col">
+        1er columna
+      </div>
+      <div class="col">
+        2er columna
+      </div>
+      <div class="col">
+        3er columna
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        1er columna
+      </div>
+      <div class="col">
+        2er columna
+      </div>
+      <div class="col">
+        3er columna
+      </div>
+    </div>
+    <div class="row align-items-end">
+      <div class="col">
+        1er columna
+      </div>
+      <div class="col">
+        2er columna
+      </div>
+      <div class="col">
+        3er columna
+      </div>
+    </div>
+  </div>
+
+  <!-- CUATRO -->
+  <div class="container">
+    <div class="row">
+      <div class="col align-self-start">
+        1er columna
+      </div>
+      <div class="col align-self-center">
+        2da columna
+      </div>
+      <div class="col align-self-end">
+        3er columna
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CINCO -->
+
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-4">
+        columna a1
+      </div>
+      <div class="col-4">
+        columna a2
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        columna b1
+      </div>
+      <div class="col-4">
+        columna b2
+      </div>
+    </div>
+    <div class="row justify-content-end">
+      <div class="col-4">
+        columna c1
+      </div>
+      <div class="col-4">
+        columna c2
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-4">
+        columna d1
+      </div>
+      <div class="col-4">
+        columna d2
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-4">
+        columna e1
+      </div>
+      <div class="col-4">
+        columna e2
+      </div>
+    </div>
+  </div>
+
+  <!-- SEIS -->
+
+  <div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4 offset-md-4">.col-md-4 .offself-md-4</div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 offset-md-3">.col-md-3 .offself-md-3</div>
+    <div class="col-md-3 offset-md-3">.col-md-3 .offself-md-3</div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 offset-md-3">.col-md-6 .offself-md-3</div>
+  </div>
+
+  <!-- SIETE -->
+
+  
+  <div class="row">
+    <div class="col-sm-9">
+      Nivel 1: .col-sm-9
+      <div class="row">
+      <div class="col-8 col-sm-6">
+        Nivel 2: .col-8 .col-sm-6
+      </div>
+      <div class="col-4 col-sm-6">
+        Nivel 2: .col-4 .col-sm-6
+      </div>
+    </div>
+  </div>
+
+
+  <!-- OCHO --> <!-- NAVBAR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <a class="navbar-brand" href="#">Hidden brand</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Precio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Terminos y condiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- NUEVE BLOQUE COD TAB PILLS  -->
+
+   <!-- TABS -->
+   <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div role="tab-panel">
+          <!-- LISTA ORDENADA -->
+          <ul  class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#seccion1" aria-controls="seccion1" data-toggle="tab" role="tab"> - Compare -</a> </li>
+            <li role="presentation"><a href="#seccion2" aria-controls="seccion2" data-toggle="tab" role="tab"> -Tarjetas </a> </li>
+            <li role="presentation"><a href="#seccion3" aria-controls="seccion3" data-toggle="tab" role="tab"> -Compras al mayor -</a> </li>
+  <!-- TAB PESTAÑA -->
+            <div class="tab-content">
+              <!-- PANEL 1 Compare -->
+              <div role="tabpanel" class="tab-pane active" id="seccion1">
+                <br>
+                <h3>Compare</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia justo quis felis ultricies, in rutrum sem fermentum. Morbi et iaculis nisi, vel bibendum lorem.</p>
+              </div>
+              <!-- PANEL 2 Tarjetas -->                
+              <div role="tabpanel" class="tab-pane" id="seccion2">
+                <br>
+                <h3>Tarjetas</h3>
+                <div class="d-flex justify-content-center">
+                  <div class="card" style="width: 18rem;">
+                    <div class="card-header" style="background-color: blue; color: white;">
+                      Tarjetas Aceptadas
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Master</li>
+                      <li class="list-group-item">Visa</li>
+                      <li class="list-group-item">American</li>
+                    </ul>  
+                  </div>
+                </div>
+              </div>
+              <!-- PANEL 3 Compras al mayor -->                
+              <div role="tabpanel" class="tab-pane" id="seccion3">
+                <br>
+                <h3>Compras al mayor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia justo quis felis ultricies, in rutrum sem fermentum. Morbi et iaculis nisi, vel bibendum lorem.</p>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- DIEZ  -->
+
+   <!-- TABS PESTAÑAS-->
+   <div class="row">
+    <div class="col-md-5">
+      <div role="tab-panel">
+        <!-- LISTA ORDENADA -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id=compara-tab date-toggle="tab" href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id=tarjetas-tab dato-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id=comentarios-tab dato-toggle="tab" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">comentarios</a>
+          </li>
+          
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+              <div class="table resposive">
+                <table class="table table-striped">
+                  <thead class="thead-dark">
+                      <th scope="col">Gama</th>
+                      <th scope="col">Guitarra</th>
+                      <th scope="col">Piano</th>
+                      <th scope="col">Bajo</th>
+                      <th scope="col">Organeta</th>
+                      <th scope="col">Bateria</th>
+                      <th scope="col">Flauta</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-square" viewBox="0 0 16 16">
+                        <path d="M3.626 6.832A.5.5 0 0 1 4 6h8a.5.5 0 0 1 .374.832l-4 4.5a.5.5 0 0 1-.748 0l-4-4.5z"/>
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2z"/>
+                      </svg> Yamaha</th>
+                      <td>$ 100</td>
+                      <td>$ 150</td>
+                      <td>$ 150</td>
+                      <td>$ 150</td>
+                      <td>$ 300</td>
+                      <td>$ 300</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-app" viewBox="0 0 16 16">
+                        <path d="M11 2a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6zM5 1a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4H5z"/>
+                      </svg> Casio</th>
+                      <td>$ 100</td>
+                      <td>$ 150</td>
+                      <td>$ 150</td>
+                      <td>$ 300</td>
+                      <td>$ 150</td>
+                      <td>$ 300</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>      
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>

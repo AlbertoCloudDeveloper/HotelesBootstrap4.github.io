@@ -1,0 +1,40 @@
+@yelow: #f3e413;
+@rojo: #ff1919;
+@verde: #21ff19;
+    
+.margenes(@top: 0px, @bottom: 0px){
+    margin-top: @top;
+    margin-bottom: @bottom;
+}
+
+.jumbotron {
+    background-color: @yelow;
+    color: black;
+    .margenes(10px, 15px)
+}
+
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: @yelow;
+    .margenes(10px, 0px);
+    text-align: center;
+}
+
+.card-Instrumento {
+    flex: 1 200px;
+    .margenes(10px, 0px);
+}
+
+.btn-Comprar {
+    width: 100%;
+    position: adsolute;
+    left: 0;
+    bottom: 0;
+}
+
+.jumbotronPruebas {
+    background-color: rgb(0, 47, 255);
+    color: black;
+    padding: 50px;
+    margin-top: 4%;
+}
